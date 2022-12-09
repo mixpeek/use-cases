@@ -4,6 +4,6 @@ Use cases, tutorials and guides to apply intelligence to your file store to solv
 
 ## Tutorials
 
-|   # |                                                       Label |                                                                Description |     |
-| --: | ----------------------------------------------------------: | -------------------------------------------------------------------------: | --- |
-|   1 | [Universal Curriculum Search](/universal-curriculum-search) | Searching the contents of an entire curriculum for terms a student missed. |     |
+| Name                                                        | Description                                                                |
+| ----------------------------------------------------------- | -------------------------------------------------------------------------- |
+| [Universal Curriculum Search](/universal-curriculum-search) | Searching the contents of an entire curriculum for terms a student missed. |
