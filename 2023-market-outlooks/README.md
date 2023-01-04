@@ -38,6 +38,8 @@ mix.search("semiconductor")
 
 ## Public Demo
 
+<img src="/assets/demo.gif" height="400" />
+
 [https://demo.mixpeek.com/files?defaultSearch=nuclear](https://demo.mixpeek.com/files?defaultSearch=nuclear)
 
 ## Sources
