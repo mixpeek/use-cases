@@ -10,9 +10,35 @@ First we install the mixpeek python library:
 
 `pip install mixpeek`
 
-Then,
+Then, we upload each file to S3 (so we can reference it in our UI) to a bucket that has API read access:
 
-It uses Facebook's `BART` model, trained on CNN's Daily Mail.
+```python
+from mixpeek import Mixpeek
+
+# index entire S3 bucket, which contains each PDF
+mix = Mixpeek(
+    api_key="mixpeek_api_key",
+    access_key="aws_access_key",
+    secret_key="aws_secret_key",
+    region="us-east-2"
+)
+mix.index_bucket("2023-market-outlooks")
+```
+
+And finally, we can search:
+
+```python
+# i want to see what their stance on nuclear energy is
+mix.search("nuclear")
+
+# or maybe, how they perceive the semiconductor market
+mix.search("semiconductor")
+
+```
+
+## Public Demo
+
+[https://demo.mixpeek.com/files?defaultSearch=nuclear](https://demo.mixpeek.com/files?defaultSearch=nuclear)
 
 ## Sources
 
