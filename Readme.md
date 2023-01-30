@@ -4,6 +4,7 @@ Use cases, tutorials and guides to apply intelligence to your file store to solv
 
 ## Tutorials
 
-| Name                                                        | Description                                                                |
-| ----------------------------------------------------------- | -------------------------------------------------------------------------- |
-| [Universal Curriculum Search](/universal-curriculum-search) | Searching the contents of an entire curriculum for terms a student missed. |
+| Name                                              | Description                                                                |
+| ------------------------------------------------- | -------------------------------------------------------------------------- |
+| [Stock Analysis](/stock-analysis)                 | Building a stock analysis application                                      |
+| [Curriculum Search](/universal-curriculum-search) | Searching the contents of an entire curriculum for terms a student missed. |
