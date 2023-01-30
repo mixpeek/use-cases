@@ -1,5 +1,7 @@
 ## Stock Analysis
 
+[Register for Free](https://mixpeek.com/community#events)
+
 ### Who is this intended for?
 
 1. Those that are interesting in the white hot field of ML and want to learn by doing.
