@@ -17,9 +17,9 @@ Week 2: Usage - Importing a pre-trained ML model via HuggingFace
 
 Week 3: Servers - EC2 with GPU deployment
 
-Week 4: Engines - MongoDB ingestion
+Week 4: Engines - Vector embeddings and KNN/HNSW search
 
-Week 5: Backend - Flask backend
+Week 5: Backend - API backend
 
 Week 6: Frontend - Javascript, dynamic search experience
 
