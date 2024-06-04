@@ -6,12 +6,12 @@ from pymongo import MongoClient
 class Mixpeek:
     def __init__(self):
         self.headers = {
-            'Authorization': 'Bearer sk-OldCtNxFD2Yu744JPWPCUut5h6XihVM7UzZN271R-3kmeJk7NDsRNkG2Ae1K01YK2dI',
+            'Authorization': 'Bearer ',
             'Content-Type': 'application/json'
         }
 
         # Initialize MongoDB client
-        self.client = MongoClient('mongodb+srv://app:sYtMWBACfzcqsF2A@mixpeek.mhsby.mongodb.net/test?authSource=admin&replicaSet=atlas-o8jhmu-shard-0&w=majority&readPreference=primary&retryWrites=true&ssl=true')
+        self.client = MongoClient('')
         self.db = self.client['demos']
         self.collection = self.db['trump_transcripts']
 
