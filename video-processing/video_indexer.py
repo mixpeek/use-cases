@@ -13,6 +13,7 @@ processed_videos = mixpeek.tools.video.process(
 results = []
 for index, video in enumerate(processed_videos):
     print(f"embedding video chunk: {index}")
+    # print(video)
     embedding = mixpeek.embed.video(
         model_id="mixpeek/vuse-generic-v1",
         input=video['base64_string'],
