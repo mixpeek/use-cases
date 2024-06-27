@@ -1,0 +1,4 @@
+pytube==15.0.0
+requests==2.32.3
+urllib3==2.2.2
+mixpeek==0.6.28
