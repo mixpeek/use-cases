@@ -1,4 +1,3 @@
-````markdown:use-cases/reverse-video-search/README.md
 # Reverse Video Search
 
 This project implements a reverse video search system using the Mixpeek API for video processing and embedding, and MongoDB for indexing and querying video chunks based on vector similarity.
